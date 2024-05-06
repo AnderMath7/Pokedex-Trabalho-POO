@@ -86,4 +86,13 @@ public class Tipo {
 			break;
 		}
 	}
+	
+	void listarTiposDisponiveis(){
+		for(EnumTipo t : EnumTipo.values()) {
+			int count = 1;
+			System.out.println("[" + count + "] " + t);
+			count++;
+		}
+		System.out.println("\n\n");
+	}
 }
